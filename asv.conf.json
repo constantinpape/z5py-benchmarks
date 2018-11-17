@@ -12,7 +12,7 @@
     "install_command": ["make install"],
     // "uninstall_command": ["return-code=any python -mpip uninstall -y {project}"],
     "build_command": [
-        "cmake . -DWITH_ZLIB=ON -DCMAKE_PREFIX_PATH=.. -DCMAKE_INSTALL_PREFIX=.. -DPYTHON_MODULE_INSTALL_DIR=../lib/python3.7/site-packages",
+        "cmake . -DWITH_ZLIB=ON -DCMAKE_PREFIX_PATH=.. -DCMAKE_INSTALL_PREFIX=.. -DPYTHON_MODULE_INSTALL_DIR=../lib/python3.7/site-packages -DUSE_OLD_ABI=ON",
         "make -j 8"
     ],
 
