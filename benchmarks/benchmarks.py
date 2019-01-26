@@ -9,9 +9,7 @@ import z5py.util
 
 
 class TimeSuite:
-    """
-    An example benchmark that times the performance of various kinds
-    of iterating over dictionaries in Python.
+    """ Benchmark for z5py
     """
     tmp_folder = './tmp'
     file_read = './tmp/file_read.n5'
