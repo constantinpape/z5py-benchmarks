@@ -12,7 +12,7 @@
     "install_command": ["make install"],
     // "uninstall_command": ["return-code=any python -mpip uninstall -y {project}"],
     "build_command": [
-        "cmake . -DWITH_ZLIB=ON -DCMAKE_PREFIX_PATH=.. -DCMAKE_INSTALL_PREFIX=.. -DPYTHON_MODULE_INSTALL_DIR=../lib/python3.7/site-packages -DUSE_OLD_ABI=ON",
+        "cmake . -DWITH_ZLIB=ON -DCMAKE_PREFIX_PATH=.. -DCMAKE_INSTALL_PREFIX=.. -DPYTHON_MODULE_INSTALL_DIR=../lib/python3.7/site-packages -DCMAKE_CXX_FLAGS='-std=c++17'",
         "make -j 8"
     ],
 
@@ -32,6 +32,7 @@
         "six": [""],
         "xtensor-python": ["0.22.0"],
         "xtensor": ["0.19.2"],
+        "xsimd": ["7.1.2"],
         "boost-cpp": ["1.69"],
         "zlib": [""],
         "nlohmann_json": [""],

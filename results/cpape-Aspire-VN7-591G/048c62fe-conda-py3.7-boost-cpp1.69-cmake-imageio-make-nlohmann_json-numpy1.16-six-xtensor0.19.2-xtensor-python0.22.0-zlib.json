@@ -1,0 +1,122 @@
+{
+    "benchmark_version": {
+        "benchmarks.TimeSuite.time_read_gzip": "b33de2787b2e7a8e523f40067ec4356647677090bba796e2b0f2e2310b6694af",
+        "benchmarks.TimeSuite.time_read_raw": "9e0f4755342676c1e19a252857b8088db2572a82afa289f38c74dbce6372902e",
+        "benchmarks.TimeSuite.time_write_gzip": "65be130c68ff816db6891c62991b2587ff62014ecb81ead6258a6dbeb2e6d92e",
+        "benchmarks.TimeSuite.time_write_raw": "0c32360724269383a8d25077f657cd8dc980b23560323676648e4f9c3e1b89ea"
+    },
+    "commit_hash": "048c62fe3be0fbbe9cce324f19c9aa5b7d10c858",
+    "date": 1548499261000,
+    "ended_at": {
+        "benchmarks.TimeSuite.time_read_gzip": 1548509692141,
+        "benchmarks.TimeSuite.time_read_raw": 1548509693746,
+        "benchmarks.TimeSuite.time_write_gzip": 1548509696103,
+        "benchmarks.TimeSuite.time_write_raw": 1548509690536
+    },
+    "env_name": "conda-py3.7-boost-cpp1.69-cmake-imageio-make-nlohmann_json-numpy1.16-six-xtensor0.19.2-xtensor-python0.22.0-zlib",
+    "params": {
+        "arch": "x86_64",
+        "boost-cpp": "1.69",
+        "cmake": "",
+        "cpu": "Intel(R) Core(TM) i7-4710HQ CPU @ 2.50GHz",
+        "imageio": "",
+        "machine": "cpape-Aspire-VN7-591G",
+        "make": "",
+        "nlohmann_json": "",
+        "numpy": "1.16",
+        "os": "Linux 4.15.0-43-generic",
+        "python": "3.7",
+        "ram": "16GB",
+        "six": "",
+        "xtensor": "0.19.2",
+        "xtensor-python": "0.22.0",
+        "zlib": ""
+    },
+    "profiles": {},
+    "python": "3.7",
+    "requirements": {
+        "boost-cpp": "1.69",
+        "cmake": "",
+        "imageio": "",
+        "make": "",
+        "nlohmann_json": "",
+        "numpy": "1.16",
+        "six": "",
+        "xtensor": "0.19.2",
+        "xtensor-python": "0.22.0",
+        "zlib": ""
+    },
+    "results": {
+        "benchmarks.TimeSuite.time_read_gzip": {
+            "result": [
+                0.014744375000000032
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        0.014516843000000001,
+                        0.015990621000000038
+                    ],
+                    "max": 0.015990621000000038,
+                    "mean": 0.014956535199999987,
+                    "min": 0.014516843000000001,
+                    "number": 1,
+                    "q_25": 0.014653775249999945,
+                    "q_75": 0.014952305499999985,
+                    "repeat": 10,
+                    "std": 0.0005135242047056533
+                }
+            ]
+        },
+        "benchmarks.TimeSuite.time_read_raw": {
+            "result": [
+                0.002505604699999997
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        0.002332856200000011,
+                        0.0026667094000000003
+                    ],
+                    "max": 0.0026667094000000003,
+                    "mean": 0.0024947788200000032,
+                    "min": 0.002332856200000011,
+                    "number": 5,
+                    "q_25": 0.0024196505999999948,
+                    "q_75": 0.0025497844000000047,
+                    "repeat": 10,
+                    "std": 0.00010861335599998653
+                }
+            ]
+        },
+        "benchmarks.TimeSuite.time_write_gzip": {
+            "result": [
+                0.15547936900000003
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        0.154406425,
+                        0.15777742799999994
+                    ],
+                    "max": 0.15777742799999994,
+                    "mean": 0.15582345390000002,
+                    "min": 0.154406425,
+                    "number": 1,
+                    "q_25": 0.15528789025,
+                    "q_75": 0.15639107674999997,
+                    "repeat": 10,
+                    "std": 0.0008914851088729647
+                }
+            ]
+        },
+        "benchmarks.TimeSuite.time_write_raw": null
+    },
+    "started_at": {
+        "benchmarks.TimeSuite.time_read_gzip": 1548509690536,
+        "benchmarks.TimeSuite.time_read_raw": 1548509692141,
+        "benchmarks.TimeSuite.time_write_gzip": 1548509693746,
+        "benchmarks.TimeSuite.time_write_raw": 1548509690233
+    },
+    "version": 1
+}

@@ -56,3 +56,13 @@ class TimeSuite:
 # class MemSuite:
 #     def mem_list(self):
 #         return [0] * 256
+
+
+# debug benchmarks
+if __name__ == '__main__':
+    ts = TimeSuite()
+    ts.setup()
+    print("Run time raw")
+    ts.time_write_raw()
+    print("done")
+    ts.teardown()

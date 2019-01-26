@@ -1,0 +1,124 @@
+{
+    "benchmark_version": {
+        "benchmarks.TimeSuite.time_read_gzip": "b33de2787b2e7a8e523f40067ec4356647677090bba796e2b0f2e2310b6694af",
+        "benchmarks.TimeSuite.time_read_raw": "9e0f4755342676c1e19a252857b8088db2572a82afa289f38c74dbce6372902e",
+        "benchmarks.TimeSuite.time_write_gzip": "65be130c68ff816db6891c62991b2587ff62014ecb81ead6258a6dbeb2e6d92e",
+        "benchmarks.TimeSuite.time_write_raw": "0c32360724269383a8d25077f657cd8dc980b23560323676648e4f9c3e1b89ea"
+    },
+    "commit_hash": "d1fdb1e1ff2030a123a10e2913666529c6a4936f",
+    "date": 1548505236000,
+    "ended_at": {
+        "benchmarks.TimeSuite.time_read_gzip": 1548510001407,
+        "benchmarks.TimeSuite.time_read_raw": 1548510003013,
+        "benchmarks.TimeSuite.time_write_gzip": 1548510005420,
+        "benchmarks.TimeSuite.time_write_raw": 1548509999802
+    },
+    "env_name": "conda-py3.7-boost-cpp1.69-cmake-imageio-make-nlohmann_json-numpy1.16-six-xsimd7.1.2-xtensor0.19.2-xtensor-python0.22.0-zlib",
+    "params": {
+        "arch": "x86_64",
+        "boost-cpp": "1.69",
+        "cmake": "",
+        "cpu": "Intel(R) Core(TM) i7-4710HQ CPU @ 2.50GHz",
+        "imageio": "",
+        "machine": "cpape-Aspire-VN7-591G",
+        "make": "",
+        "nlohmann_json": "",
+        "numpy": "1.16",
+        "os": "Linux 4.15.0-43-generic",
+        "python": "3.7",
+        "ram": "16GB",
+        "six": "",
+        "xsimd": "7.1.2",
+        "xtensor": "0.19.2",
+        "xtensor-python": "0.22.0",
+        "zlib": ""
+    },
+    "profiles": {},
+    "python": "3.7",
+    "requirements": {
+        "boost-cpp": "1.69",
+        "cmake": "",
+        "imageio": "",
+        "make": "",
+        "nlohmann_json": "",
+        "numpy": "1.16",
+        "six": "",
+        "xsimd": "7.1.2",
+        "xtensor": "0.19.2",
+        "xtensor-python": "0.22.0",
+        "zlib": ""
+    },
+    "results": {
+        "benchmarks.TimeSuite.time_read_gzip": {
+            "result": [
+                0.015552023000000026
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        0.01459940599999987,
+                        0.016486226000000048
+                    ],
+                    "max": 0.016486226000000048,
+                    "mean": 0.015479646999999985,
+                    "min": 0.01459940599999987,
+                    "number": 1,
+                    "q_25": 0.015120123749999909,
+                    "q_75": 0.01571159050000004,
+                    "repeat": 10,
+                    "std": 0.0005018785981378654
+                }
+            ]
+        },
+        "benchmarks.TimeSuite.time_read_raw": {
+            "result": [
+                0.002523384999999989
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        0.002370881749999998,
+                        0.0029395264999999837
+                    ],
+                    "max": 0.0029395264999999837,
+                    "mean": 0.002569971374999991,
+                    "min": 0.002370881749999998,
+                    "number": 4,
+                    "q_25": 0.002484044874999994,
+                    "q_75": 0.0025988089999999867,
+                    "repeat": 10,
+                    "std": 0.00015485623027017414
+                }
+            ]
+        },
+        "benchmarks.TimeSuite.time_write_gzip": {
+            "result": [
+                0.15772973300000004
+            ],
+            "stats": [
+                {
+                    "ci_99": [
+                        0.15578266099999993,
+                        0.15969632199999984
+                    ],
+                    "max": 0.15969632199999984,
+                    "mean": 0.15760483829999994,
+                    "min": 0.15578266099999993,
+                    "number": 1,
+                    "q_25": 0.15706593499999988,
+                    "q_75": 0.15826648449999986,
+                    "repeat": 10,
+                    "std": 0.0011376952480438047
+                }
+            ]
+        },
+        "benchmarks.TimeSuite.time_write_raw": null
+    },
+    "started_at": {
+        "benchmarks.TimeSuite.time_read_gzip": 1548509999802,
+        "benchmarks.TimeSuite.time_read_raw": 1548510001407,
+        "benchmarks.TimeSuite.time_write_gzip": 1548510003013,
+        "benchmarks.TimeSuite.time_write_raw": 1548509999499
+    },
+    "version": 1
+}
